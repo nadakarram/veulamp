@@ -1,0 +1,96 @@
+button .circ{
+    width: 20px;
+     height: 18px;
+      border-radius: 50%; 
+       background-color: gray;
+        display: block;
+        margin-left: -5px;
+       
+}
+.btn1{
+    width: 40px;
+     height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0;
+    outline: 0;
+    transition: background-color 5s margin-left 5s;
+}
+
+.lamp{
+    position: absolute;
+    top: -10px;
+    left: 250px;
+    width:150px;
+    height: 280px;
+  
+
+}
+.text{
+    margin-left: 50%;
+    margin-top: 4%;
+    
+    color: white;
+    width: 400px;
+    height: 500px;
+}
+.text h1{
+    font-size: 80px
+    
+}
+.range{
+       margin-top: 88px;
+       display: flex;
+       align-items: first baseline;
+       margin-left: 50%;
+       justify-content: center;
+      
+}
+ .line{
+    display: block;
+
+    width: 500px;
+    height: 10px;
+ 
+    border-radius: 5px;
+    
+    background-color: white;
+
+}
+.range .line .hi{
+    display: block;
+    width: 50%;
+    height: 10px;
+    border-radius: 5px;
+    
+    background-color: rgb(11, 79, 82);
+
+}
+.range p{
+    color: white;
+    font-size: large;
+  margin: 0 2px;
+
+}
+.light{
+    position: absolute;
+    top: -10px;
+    left: 55px;
+    width:527px;
+    height: 347px;
+    margin-top: 276px;
+    opacity: 0;
+    transition: opacity 2s;
+
+}
+.active{
+    background-color: rgb(33, 94, 33);
+
+}
+.active span{
+    margin-left: 11px;
+
+}
+.on3{
+    opacity: 1;
+}
